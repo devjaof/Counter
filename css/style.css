@@ -1,0 +1,76 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #8dc4c2;
+}
+
+.cabecalho{
+    background-color: #a3e3e0;
+    display: flex;
+    justify-content: center;
+
+    padding: 38px;
+    box-shadow: 0px 4px 2px #72a3a1;
+
+}
+
+.titulo {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    color: #002b29;
+}
+
+.contador {
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+    align-items: center;
+}
+
+span {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.botao {
+    background-color: #51bdb7;
+    border: none;
+    border-radius: 40%;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    margin: 4px 4px;
+
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+.botao:active {
+    box-shadow: 0px 4px 2px #307874;
+}
+
